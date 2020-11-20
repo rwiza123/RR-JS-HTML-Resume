@@ -1,10 +1,10 @@
 body {
     margin: 0;
-    margin-top: 50px;
+    margin-top: 25px;
     font-family: sans-serif;
 }
 
-header {
+ header {
     display: flex;
     position: fixed;
     top: 0;
@@ -27,7 +27,12 @@ header ul {
 header li {
     margin-left: 20px;
 }
+ .aboutme {
+     text-align: left;
 
+ }
+
+}
 section {
     height: 100vh;
     border: 1px solid black;
@@ -45,6 +50,10 @@ section {
 #hero .profile-img {
     width: 300px;
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;   
 }
 
 footer {
@@ -53,11 +62,13 @@ footer {
 }
 
 #hero h1 {
-    font-size: 3em;
+    font-size: 1.5em;
+    text-align: center;
+    
 }
 
 section h2 {
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 section h3 {
@@ -70,6 +81,9 @@ header a {
 }
 
 /* Add everything below here */
+
+
+
 
 #hero {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
