@@ -8,7 +8,7 @@ body {
     display: flex;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 5;
     right: 0;
     height: 50px;
     line-height: 50px;
@@ -31,7 +31,11 @@ header li {
      text-align: left;
 
  }
+   
+   .profExp {
+       color: blue;
 
+   }
 }
 section {
     height: 100vh;
