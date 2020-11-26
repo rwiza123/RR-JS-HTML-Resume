@@ -95,16 +95,27 @@ header a {
     line-height: 0;
     text-decoration-style: solid;
 }
+ 
+.experience,
+  .section-inner {
+    margin-left: 25px;
+}
 
 
 #hero {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    background-repeat: no-repeat;
+     background-size: 100%;
 }
 
 #about {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%
 }
 
 #contact {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
